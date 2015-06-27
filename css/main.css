@@ -1,0 +1,293 @@
+
+HTML, body
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.top_section
+{
+	background-image: url('../img/bcg_slide-1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hsContent {
+	max-width: 450px;
+
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	text-align: center
+}
+	.hsContent h2{
+		color: #ffffff;
+		font-size: 3vw;
+		line-height: 48px;
+		margin-bottom: 12px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.hsContent p {
+		max-width: 30%;
+		font-size: 2vw;
+
+		margin: 0 auto;
+		color: #b2b2b2;
+	}
+	.hsContent a {
+		color: #b2b2b2;
+		text-decoration: none;
+		margin : 40px auto;
+		min-width: 48px;
+		min-height: 49px;
+	}
+
+	.hsContent a:hover{
+		color: white;
+	}
+
+	.contact{
+		margin-top: 60px;
+		width: 20%;
+		display: inline-block;
+	}
+
+	.hsContent [class*="zocial-"]:before {
+		font-family: 'zocial', sans-serif;
+		font-size: 2vw;
+	}
+	.bgBlack {
+		background-color: rgba(0,0,0,0.75);
+		padding: 3px 10px;
+	}
+
+
+
+
+.octo, .octo div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.octo, .octo div {
+  width: 270px;
+  height: 270px;
+}
+.octo {
+  transform: rotate(45deg);
+}
+.octo1 {
+  transform: rotate(-45deg);
+}
+
+.education{
+	margin-top: 0px;
+	background-color: #f3f5f8;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    max-width: 60%;
+    margin-top: 10px;
+    color: #f3f5f8;
+    margin-bottom: 0px;
+}
+
+.education_box{
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+
+.projects{
+	margin-top: 0px;
+	background-color: white;
+}
+
+
+.education img{
+	max-width: 100%;
+	background-size: cover;
+
+}
+.edu_title{
+	display: flex;
+
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.edu_name{
+	color: #800000;
+	text-align: left;
+	padding-left: 0px;
+	margin-top: 10px;
+	font-size: 2vw;
+}
+.edu_date{
+	margin-top: 15px;
+	text-align: right;
+	color: gray;
+}
+
+.edu_img{
+	background-size: cover;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.edu_text{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.edu_text_course{
+	margin-bottom: 9px;
+	color: #00008B;
+}
+
+.edu_text_link{
+	text-align: right;
+	font-size: 12px;
+	color: #b2b2b2;
+	text-decoration: none;
+	margin-top: 15px;
+
+}
+
+.edu_text_link a:hover{
+	text-align: right;
+	text-decoration: none;
+
+}
+
+.skills{
+	margin-top: 0px;
+	background-color: #f3f5f8;
+
+}
+.skills_box{
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.skills_title{
+	margin-top: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+.skills_title{
+	margin-top: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+.skills_title hr{
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    max-width: 60%;
+    margin-top: 5px;
+    color: #f3f5f8;
+    margin-bottom: 10px;
+}
+
+.skills_text{
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #f3f5f8;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+
+}
+
+.skills_text:hover{
+	transition:0.5s ;
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+h2 { font-size: 2em; margin: 0.67em 0; color: #353535; text-align: center;}
+h2.arrow { font-size: 2em; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom: 40px;}
+
+
+@media screean and (min-width: 800px){
+	.hsContent [class*="zocial-"]:before {
+		font-family: 'zocial', sans-serif;
+		font-size: 1vw;
+	}
+}
+
+@media screean and (min-width: 770px) and (max-width: 1000px){
+	.edu_date{
+	margin-top: 25px;
+	}
+
+	.skills_title{font-size: 6vw;}
+
+	.edu_name{
+		font-size: 6vw;
+	}
+	.hsContent h2{
+		font-size: 7vw;
+	}
+	.hsContent p {
+		max-width: 80%;
+		font-size: 6vw;
+	}
+	.hsContent [class*="zocial-"]:before {
+		font-family: 'zocial', sans-serif;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 770px){
+	
+
+	.edu_name{
+		font-size: 5vw;
+	}
+
+	.skills_title{font-size: 5vw;}
+	.hsContent h2{
+		font-size: 6vw;
+	}
+	.hsContent p {
+		max-width: 80%;
+		font-size: 4vw;
+	}
+	.hsContent [class*="zocial-"]:before {
+		font-family: 'zocial', sans-serif;
+		font-size: 4vw;
+	}
+}
