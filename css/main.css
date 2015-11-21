@@ -1,9 +1,33 @@
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
 
 HTML, body
 {
 	margin: 0px;
 	padding: 0px;
 
+}
+
+section#top_section { overflow: hidden; }
+section#top_section figure img { width: 20%; float: left; }
+section#top_section figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
 }
 
 .top_section
@@ -55,6 +79,20 @@ HTML, body
 		margin : 40px auto;
 		min-width: 48px;
 		min-height: 49px;
+	}
+
+	.twitter a{
+		color: #008744;
+	}
+	.facebook a{
+		color: #0057e7;
+	}
+	.googleplus a{
+		color: #d62d20;
+	}
+
+	.github a{
+		color: #ffa700;
 	}
 
 	.hsContent a:hover{
@@ -241,14 +279,14 @@ h2 { font-size: 2em; margin: 0.67em 0; color: #353535; text-align: center;}
 h2.arrow { font-size: 2em; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom: 40px;}
 
 
-@media screean and (min-width: 800px){
+@media screen and (min-width: 800px){
 	.hsContent [class*="zocial-"]:before {
 		font-family: 'zocial', sans-serif;
 		font-size: 1vw;
 	}
 }
 
-@media screean and (min-width: 770px) and (max-width: 1000px){
+@media screen and (min-width: 770px) and (max-width: 1000px){
 	.edu_date{
 	margin-top: 25px;
 	}
